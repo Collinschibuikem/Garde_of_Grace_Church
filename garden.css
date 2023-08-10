@@ -83,17 +83,6 @@ img {
   z-index: 2;
 }
 
-@media screen and (max-width: 580px) {
-  .hero {
-    background-image: url(/img/church_background.jpg);
-    background-position:center ;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 2;
-  }
-}
-
 .hero::after {
   content: "";
   width: 100%;
