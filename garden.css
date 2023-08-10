@@ -83,7 +83,7 @@ img {
   z-index: 2;
 }
 
-/* @media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
   .hero {
     background-image: url(/img/church_background.jpg);
     background-position:center ;
@@ -93,7 +93,7 @@ img {
     z-index: 2;
   }
 }
- */
+
 .hero::after {
   content: "";
   width: 100%;
