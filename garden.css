@@ -76,7 +76,8 @@ img {
 }
 .hero {
   background-image: url(/img/church_background.jpg);
-/*   background-position: ; */
+  background-position: ;
+  background-color: blue;
   background-size: cover;
   background-attachment:fixed ;
   position: relative;
