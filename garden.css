@@ -93,6 +93,18 @@ img {
   z-index: -1;
   background-color: rgba(66, 66, 78, 0.2);
 }
+
+@media screen and (max-width: 580px) {
+  .hero {
+    background-image: url(/img/church_background.jpg) center/cover no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+  }
+} 
+
 .churchname{
   font-size: 70px;
   font-weight: 100;
